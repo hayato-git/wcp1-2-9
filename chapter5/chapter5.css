@@ -1,0 +1,38 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b /*全体の文字色統一*/
+}
+.a {
+   text-decoration:none;
+}
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both; /*html(親要素にも書くのを忘れない)*/
+}
+.box1 {
+	height: 200px;
+	background-image: url(img/box1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.box2 {
+	height: 200px;
+	background-image: url(img/box2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.box3 {
+	height: 200px;
+	background-image: url(img/box3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.box4 {
+	height: 200px;
+	background-image: url(img/box4.jpg);
+	background-size: cover;
+	background-position: center;
+}

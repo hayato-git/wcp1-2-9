@@ -1,0 +1,32 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b /*全体の文字色統一*/
+}
+.a {
+   text-decoration:none;
+}
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both; /*html(親要素にも書くのを忘れない)*/
+}
+.main-visual {
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 400px;
+}
+.main-visual-text {
+	padding: 20px;
+}
+main {
+	width: 840px;
+	margin: 50px auto;
+}
+.box {
+	border-bottom: 1px solid #f7f7f7;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
